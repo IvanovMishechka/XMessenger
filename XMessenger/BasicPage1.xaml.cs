@@ -24,6 +24,7 @@ namespace XMessenger
         public BasicPage1()
         {
             this.InitializeComponent();
+
         }
 
         /// <summary>
