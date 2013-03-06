@@ -64,7 +64,7 @@ namespace XMessenger
                 // Если стек навигации не восстанавливается для перехода к первой странице,
                 // настройка новой страницы путем передачи необходимой информации в качестве параметра
                 // навигации
-                if (!rootFrame.Navigate(typeof(MainPage), args.Arguments))
+                if (!rootFrame.Navigate(typeof(BasicPage1), args.Arguments))
                 {
                     throw new Exception("Failed to create initial page");
                 }
